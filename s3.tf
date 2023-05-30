@@ -1,9 +1,9 @@
 resource "aws_s3_bucket" "example" {
-  bucket = "swara"
+  bucket = "swara1"
 
   tags = {
-    Name    = "My bucket"
-    Owner   = "swaranjal.singh@clooudeq.com"
+    Name    = "Swaranjal"
+    Owner   = "swaranjal.singh@cloudeq.com"
     purpose = "training"
   }
 }
